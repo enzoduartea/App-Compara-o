@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: conic-gradient(#6b705c, #a5a58d, #d4a5a5, #392f5a);
+text-align: center;
+    }
+
+#apresentacao {
+    margin: 20px;
+    text-align: center;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.test_image_and_result {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.image-section, .result-section, .mini_result {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.google-lens-icon {
+    vertical-align: top;
+    width: 20px;
+    height: auto;
+}
+
+footer {
+    background-color: #f7f7f7;
+    padding: 20px 0;
+    text-align: center;
+}
+span
+{
+    color: palegoldenrod;
+}
+img
+{
+width: 50px;
+height: 50px;
+}
+h1, h4, h5, b, span {
+    background-color: white;
+    display: inline-block; /* Isso garante que o fundo branco não se estenda além do texto */
+    padding: 2px 5px; /* Isso adiciona um pequeno espaço ao redor do texto dentro do fundo branco */
+}
+.image-section, 
+.result-section, 
+.mini_result {
+    background-color: white;
+    padding: 5px 10px; /* Isso adiciona um pequeno espaço ao redor do texto para não ficar colado nas bordas */
+    margin: 5px 0;     /* Espaçamento entre as seções */
+    border-radius: 5px; /* Borda arredondada */
+}

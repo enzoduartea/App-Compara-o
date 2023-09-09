@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .conclusao {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .conclusao:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, #4CAF50, #81C784);
+        }
+
+        .conclusao h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .conclusao p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .conclusion-icon {
+            width: 60px;
+            height: 60px;
+            background: url('path_to_your_icon_or_image.jpg') center center no-repeat;
+            background-size: cover;
+            margin: 0 auto 20px auto;
+            border-radius: 50%;
+        }
+
+        .image-list {
+            list-style: decimal inside;
+            padding: 0;
+            margin: 0;
+        }
+
+        .test_image_and_result {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+        }
+
+        h5 {
+            font-size: 1.2em;
+            margin-top: 20px;
+            color: #555;
+        }
+
+        .mini_result {
+            background-color: #e9e9e9;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        #apresentacao {
+            margin: 20px 0;
+            border: 5px solid #333;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            background-color: #fff;
+        }
+
+        #apresentacao img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        #img2 {
+            width: 100%;
+            max-width: 300px;
+            /* Ajuste conforme necessário */
+        }
+
+        #imgGarrafa {
+            width: 100%;
+            max-width: 300px;
+            /* Ajuste conforme necessário */
+        }
+    </style>
+    <title>Estudo de Caso: Comparação Google Lens vs Modelo Mobinet</title>
+</head>
+
+<body>
+
+
+    <h1>Estudo de Caso: Comparação Google Lens vs Modelo Mobinet</h1>
+
+    <div id="apresentacao">
+        <img src="Powtoon_GIF.gif" alt="Apresentação em GIF">
+    </div>
+    <ol class="image-list">
+        <!-- ...Continuação do código anterior... -->
+        <li class="test_image_and_result">
+            <div class="image-section">
+                <b>Imagem teste: </b>
+                <img src="garrafa.jpg" alt="Imagem de uma garrafa" id="imgGarrafa" class="img-responsive">
+            </div>
+            <div class="result-section">
+                <h5>Resultado no Google Lens:</h5>
+                <span>Garrafa de Água</span>
+            </div>
+            <div class="result-section">
+                <h5>Resultado no Modelo Mobinet:</h5>
+                <span>Azul</span>
+            </div>
+            <div class="mini_result">
+                <h4>Resultado Final: Google-Lens ganhou</h4>
+            </div>
+        </li>
+
+        <!-- Entrada: Mesa -->
+        <li class="test_image_and_result">
+            <div class="image-section">
+                <b>Imagem teste: </b>
+                <img src="mesa.jpg" alt="Imagem de uma mesa" class="img-responsive">
+            </div>
+            <div class="result-section">
+                <h5>Resultado no Google Lens:</h5>
+                <span>Mesa de Madeira</span>
+            </div>
+            <div class="result-section">
+                <h5>Resultado no Modelo Mobinet:</h5>
+                <span>Mesa</span>
+            </div>
+            <div class="mini_result">
+                <h4>Resultado Final: Empate</h4>
+            </div>
+        </li>
+
+        <!-- Entrada: Tênis -->
+        <li class="test_image_and_result">
+            <div class="image-section">
+                <b>Imagem teste: </b>
+                <img src="tenis.jpg" alt="Imagem de um tênis" id="img2" class="img-responsive">
+            </div>
+            <div class="result-section">
+                <h5>Resultado no Google Lens:</h5>
+                <span>Tênis</span>
+            </div>
+            <div class="result-section">
+                <h5>Resultado no Modelo Mobinet:</h5>
+                <span>Tênis</span>
+            </div>
+            <div class="mini_result">
+                <h4>Resultado Final: Empate</h4>
+            </div>
+        </li>
+
+        <!-- ... Adicione mais entradas conforme a necessidade... -->
+
+    </ol>
+    <div class="conclusao">
+        <div class="conclusion-icon"></div>
+        <h2>Conclusão</h2>
+        <p>Após uma análise detalhada e comparação entre o Google Lens e o Modelo Mobinet, é evidente que cada
+            ferramenta tem seus pontos fortes. O Google Lens destaca-se em reconhecimento e precisão em diversas
+            situações. Já o Modelo Mobinet mostrou-se promissor em certos cenários, demonstrando a evolução contínua da
+            IA e machine learning. Este estudo sublinha a importância de continuarmos investindo e aprimorando
+            tecnologias de reconhecimento de imagem, visando aplicações mais amplas e precisas no futuro.</p>
+    </div>
+
+    <footer>
+        Enzo Duarte Amorim - 2023
+    </footer>
+</body>
+
+</html>
